@@ -1,0 +1,15 @@
+<a href="#/AddCar"><input type="submit" id="addCar" value="Add Car" /></a>
+<div id="wrapper" ng-repeat="item in cars">
+    <a ng-href="#/CarPage#{{item.carId}}">
+	   <div class="box">
+            <div class="innerContent">
+            <img src="images/no_image_available.png">
+            <h3>{{item.carId}}</h3>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+    

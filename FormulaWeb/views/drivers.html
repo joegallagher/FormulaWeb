@@ -1,0 +1,14 @@
+<a href="#/AddDriver"><input type="submit" id="addDriver" value="Add Driver" /></a>
+<div id="wrapper" ng-repeat="item in drivers">
+    <a ng-href="#/DriverPage#{{item.studentId}}">
+        <div class="box">
+            <div class="innerContent">
+            <img src="images/no_image_available.png">
+            <h3>{{item.firstName}}</h3>
+        </div>
+    </div>
+</div>
+
+
+
+

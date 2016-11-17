@@ -1,0 +1,17 @@
+<div id="wrapper" ng-repeat="item in races">
+    <a ng-href="#/RacePage#{{item.setupId}}">
+    <div class="box">
+	   <div class="innerContent">
+	   	  <img src="images/no_image_available.png">
+		  <h2><span class="valueHeadings">ID:</span> {{item.setupId}}</h2>
+          <p><span class="valueHeadings">Location:</span> {{item.location}}</p>
+          <p><span class="valueHeadings">Driver ID:</span> {{item.driverId}}</p>
+          <p><span class="valueHeadings">Car ID:</span> {{item.carId}}</p>
+	   </div>
+	</div>
+    </a>
+</div>
+
+
+
+

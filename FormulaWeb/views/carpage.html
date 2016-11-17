@@ -1,0 +1,16 @@
+<div class="summaryPage">
+    <img id="summaryImage" src="images/no_image_available.png">
+    <div class="summaryData">
+        <p><span class="valueHeadings">CarID:</span>{{car.carId}}</p>
+        <p><span class="valueHeadings">Front Cam Deg:</span>{{car.frontCamDeg}}</p>
+        <p><span class="valueHeadings">Rear Cam Deg:</span>{{car.rearCamDeg}}</p>
+        <p><span class="valueHeadings">Front Toe mm:</span>{{car.frontToeMm}}</p>
+        <p><span class="valueHeadings">Rear Toe mm:</span>{{car.rearToeMm}}</p>
+        <p><span class="valueHeadings">Front Spring Rates:</span>{{car.frontSpringRates}}</p>
+        <p><span class="valueHeadings">Rear Spring Rates:</span>{{car.rearSpringRates}}</p>
+    </div>
+    <div class="comments">
+        <h3>Comments:</h3> 
+        <p editable-text="car.comments">{{car.comments}}</p>   
+    </div>
+</div>

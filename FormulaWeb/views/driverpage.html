@@ -1,0 +1,15 @@
+<div class="summaryPage">
+    <img id="summaryImage" src="images/no_image_available.png">
+    <div class="summaryData">
+        <p><span class="valueHeadings">StudentID:</span><span editable-text="driver.studentId">{{driver.studentId}}</span></p>
+        <p><span class="valueHeadings">First Name:</span><span editable-text="driver.firstName" onbeforesave="updateDriver($data)">{{driver.firstName}}</span></p>
+        <p><span class="valueHeadings">Last Name:</span><span editable-text="driver.lastName">{{driver.lastName}}</span></p>
+        <p><span class="valueHeadings">Date of Birth:</span><span editable-text="driver.dob">{{driver.dob}}</span></p>
+        <p><span class="valueHeadings">Weight:</span><span editable-text="driver.weightKilos">{{driver.weightKilos}}</span></p>
+        <p><span class="valueHeadings">Height:</span><span editable-text="driver.heightCm">{{driver.heightCm}}</span></p>
+    </div>
+    <div class="comments">
+        <h3>Comments:</h3> 
+        <p editable-text="driver.comments">{{driver.comments}}</p>   
+    </div>
+</div>

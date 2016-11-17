@@ -1,0 +1,80 @@
+.summaryPage
+{
+
+	font-size: 20px;
+	width: 100%;
+  	text-align: center;
+
+	
+}
+
+#summaryImage
+{
+	display: inline-block;
+	width: 300px; 
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px #ddd;
+	margin-top: 20px;
+}
+
+
+
+#summaryImage img 
+{
+	max-height: 100%;
+  	max-width: 100%;
+}
+
+.summaryData
+{
+	padding: 10px;
+	display: inline-block;
+
+}
+
+.summaryData p 
+{
+	text-align: left;
+}
+
+.valueHeadings 
+{
+	color: #757575;
+
+}
+
+.comments h3
+{
+	color: #757575;
+}
+
+.comments p 
+{
+	display: inline-block;
+	width: 600px;
+	border: 1px solid #ddd;
+	text-align: left;
+
+}
+
+#raceSummaryData
+{
+	padding: 10px;
+	display: inline-block;
+
+}
+
+#raceSummaryData
+{
+	width: 600px;
+	text-align: left; 
+}
+
+.graphContainer 
+{
+	width: 1000px;
+	display: inline-block;
+}
+
+
+

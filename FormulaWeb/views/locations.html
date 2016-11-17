@@ -1,0 +1,14 @@
+
+<a href="#/AddLocation"><input type="submit" id="addLocation" value="Add Location" /></a>
+<div id="wrapper" ng-repeat="item in locations">
+    <a ng-href="#/LocationPage#/{{item.locationId}}">
+        <div class="box">
+            <div class="innerContent">
+            <img src="images/no_image_available.png">
+            <h3>{{item.locationName}}</h3>
+        </div>
+    </div>
+</div>
+
+
+

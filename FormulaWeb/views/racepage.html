@@ -1,0 +1,27 @@
+<div class="summaryPage">
+    <div class="summaryData">
+        <p><span class="valueHeadings">ID:</span><span editable-text="raceInfo[0].sessionId">{{raceInfo[0].sessionId}}</span></p>
+        <p><span class="valueHeadings">Track Temperature:</span><span editable-text="raceInfo[0].trackTemp">{{raceInfo[0].trackTemp}}</span></p>
+        <p><span class="valueHeadings">Tyre Temperature:</span><span editable-text="raceInfo[0].tyreTemp">{{raceInfo[0].tyreTemp}}</span></p>
+        <p><span class="valueHeadings">Lap Start:</span><span editable-text="raceInfo[0].lapStart">{{raceInfo[0].lapStart || "null"}}</span></p>
+        <p><span class="valueHeadings">Location:</span><span editable-text="raceInfo[0].locationId">{{raceInfo[0].locationId}}</span></p>
+        <p><span class="valueHeadings">Location:</span><span editable-text="raceInfo[0].locationId">{{raceInfo[0].driverId}}</span></p>
+        <p><span class="valueHeadings">Car ID:</span><span editable-text="raceInfo[0].carId">{{raceInfo[0].carId}}</span></p>
+    </div>
+
+
+
+
+    <div class="comments">
+        <h3>Comments:</h3> 
+        <p editable-text="raceInfo[0].comments">{{raceInfo[0].comments || "null"}}</p>   
+    </div>
+</div>
+<div class="graphContainer">
+<div zingchart id="myChart" zc-json="chartJson" zc-values="chartData" zc-height=100% zc-width=100%></div>
+</div>
+
+
+
+
+    
